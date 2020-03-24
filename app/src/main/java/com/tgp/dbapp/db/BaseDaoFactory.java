@@ -35,7 +35,7 @@ public class BaseDaoFactory {
         return sInstance;
     }
 
-    public BaseDaoFactory() {
+    private BaseDaoFactory() {
 //        Environment.getExternalStorageDirectory() + File.separator;
         sqliteDatabasePath = "data/data/com.tgp.dbapp/test.db";
         //新建数据库
